@@ -152,7 +152,7 @@ app.delete("/posts/:postID/comments/:commentID", async (req, res) => {
 
 // start the Express server
 function start() {
-    const client = new MongoClient("mongodb+srv://admin:kCzNVmqlSjnzuFxc@cluster0.jpmns.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+    //const client = new MongoClient("mongodb+srv://*****.jpmns.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
     client.connect()
         .then(() => {
             console.log('Connected successfully to server');
